@@ -1,22 +1,27 @@
-Climate Data Analyzer Java Script
+JavaScript Climate Data Analyzer
 
-Requirements:
+Create two files:
 
-User Input: Gets starting year and temperature from user, with buttons that trigger event handling.
+index.html - Copy and paste the HTML code into this file
 
-List/Collection: Uses arrays to store temperature data, years, and predictions, making it easy to add/modify data without changing the code structure.
+climate-analyzer.js - Copy and paste the JavaScript code into this file
 
-Custom Procedures:
-analyzeTemperatureData() with parameters and return value
-predictFutureTemperatures() with parameters and return value
+Make sure the files are in the same folder/directory on your computer.
 
-Both contribute to the program's purpose
+Open the HTML file in a web browser:
 
-Algorithm with sequencing, selection, and iteration:
-Both main functions use loops, conditionals, and sequential processing
-Calculates trends, identifies anomalies, and makes predictions
+Double-click the index.html file
+Or right-click the file and select "Open with" and choose your browser (Chrome, Firefox, Edge, etc.)
 
-Procedure Calls: The custom procedures are called when the user clicks buttons
+Using the program:
+The page should load with input fields for Start Year and Initial Temperature
 
-Output: Displays results as text, tables, and even a simple ASCII visualization
-The program demonstrates real-world relevance by tackling climate data analysis
+Click "Load Climate Data" to generate and display sample data
+
+Click "Analyze Data" to see statistics and visualizations
+
+Click "Predict Future" to see projected temperatures
+
+That's it! No special server or setup is needed since this is all client-side JavaScript that runs directly in your browser.
+
+If you're submitting this for your AP CS Principles project, remember to capture all the code as a PDF to submit. You can use the browser's print function (CTRL+P or CMD+P)
