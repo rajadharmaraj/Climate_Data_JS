@@ -1,10 +1,7 @@
 # Climate_Data_JS
 
 # Climate Data Analyzer Java Script 
-Act as a Senior High School AP Computer science student and High School Computer science student and can you please 
-award winning terrific way to write a Java script based program for the below : 
 
-AP program research project below:
 Submission Requirements
 COMPONENT A: PROGRAM CODE (CREATED INDEPENDENTLY OR COLLABORATIVELY)
 Submit one PDF file that contains all of your program code (including
