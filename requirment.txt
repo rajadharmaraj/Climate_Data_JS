@@ -1,3 +1,5 @@
+Climate Data Analyzer Java Script
+
 Requirements:
 
 User Input: Gets starting year and temperature from user, with buttons that trigger event handling.
