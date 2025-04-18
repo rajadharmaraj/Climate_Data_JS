@@ -1,0 +1,20 @@
+Requirements:
+
+User Input: Gets starting year and temperature from user, with buttons that trigger event handling.
+
+List/Collection: Uses arrays to store temperature data, years, and predictions, making it easy to add/modify data without changing the code structure.
+
+Custom Procedures:
+analyzeTemperatureData() with parameters and return value
+predictFutureTemperatures() with parameters and return value
+
+Both contribute to the program's purpose
+
+Algorithm with sequencing, selection, and iteration:
+Both main functions use loops, conditionals, and sequential processing
+Calculates trends, identifies anomalies, and makes predictions
+
+Procedure Calls: The custom procedures are called when the user clicks buttons
+
+Output: Displays results as text, tables, and even a simple ASCII visualization
+The program demonstrates real-world relevance by tackling climate data analysis
