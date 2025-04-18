@@ -24,4 +24,5 @@ Click "Predict Future" to see projected temperatures
 
 That's it! No special server or setup is needed since this is all client-side JavaScript that runs directly in your browser.
 
-If you're submitting this for your AP CS Principles project, remember to capture all the code as a PDF to submit. You can use the browser's print function (CTRL+P or CMD+P)
+Submitting this AP CS Principles project, remember to capture all the code as a PDF to submit. 
+WE can use the browser's print function (CTRL+P or CMD+P)
