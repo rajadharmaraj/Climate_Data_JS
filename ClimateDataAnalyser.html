@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Data Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 15px 0;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .visualization {
+            font-family: monospace;
+            white-space: pre;
+            line-height: 1;
+            background-color: #f8f8f8;
+            padding: 10px;
+            overflow-x: auto;
+        }
+        .error, .warning {
+            color: #d32f2f;
+        }
+        .controls {
+            background-color: #f2f2f2;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        input {
+            padding: 8px;
+            margin-right: 10px;
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Climate Data Analyzer</h1>
+    <p>This tool analyzes temperature data to identify climate trends and make predictions.</p>
+    
+    <div class="controls">
+        <h2>Data Controls</h2>
+        <div>
+            <label for="startYear">Start Year:</label>
+            <input type="number" id="startYear" value="1990">
+            <label for="startTemp">Initial Temperature (°C):</label>
+            <input type="number" id="startTemp" value="14.0" step="0.1">
+        </div>
+        <div style="margin-top: 10px;">
+            <button id="loadData">Load Climate Data</button>
+            <button id="analyzeData">Analyze Data</button>
+            <button id="predictFuture">Predict Future</button>
+        </div>
+    </div>
+    
+    <div id="dataContainer"></div>
+    <div id="resultsContainer"></div>
+    <div id="predictionsContainer"></div>
+    
+    <script src="climate-analyzer.js"></script>
+</body>
+</html>
